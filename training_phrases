@@ -1,0 +1,158 @@
+Intent: Default Welcome Intent
+Training Phrases:
+
+just going to say hi
+
+heya
+
+hello hi
+
+howdy
+
+hey there
+
+Responses:
+
+Hello, How can I help you? You can say “New Order” or “Track Order”
+
+Good day! What can I do for you today? You can say “New Order” or “Track Order”
+
+Greetings! How can I assist? You can say “New Order” or “Track Order”
+
+Intent: Default Fallback Intent
+Response:
+
+I didn’t understand. You can say “New Order” or “Track Order”. Also, in a new order, please mention only items from our available menu: Pizza, Burger, Salad, French fries. Also specify a quantity for each item, for example: “One pizza and 2 fried frees”
+
+Intent: new.order
+Training Phrases:
+
+make a new order
+
+create a brand new order
+
+generate a new order
+
+place a new order
+
+new order
+
+Responses:
+
+Ok, starting a new order. You can say things like “I want two pizzas and one fried frees”. Make sure to specify a quantity for every food item! Also, we have only the following items on our menu: Pizza, Burger, Salad, Fried Frees.
+
+Starting new order. Specify food items and quantities. For example, you can say, “I would like to order two pizzas and one fried frees”. Also, we have only the following items on our menu: Pizza, Burger, Salad, Fried Frees.
+
+Intent: order.add-context:ongoing-order
+Training Phrases:
+
+Additionally, include 1 sweet potato fries
+
+Additionally, add 2 Salads
+
+Additionally, include 1 extra fries
+
+Additionally, add 2 French Fries
+
+Additionally, I’d like 3 more Chips
+
+Additionally, include 1 Fried fries
+
+Additionally, include 3 more Potato Fries
+
+Additionally, I’d like 2 cheese pizzas
+
+Additionally, add 1 more pizza
+
+Response:
+
+Anything else?
+
+Intent: order.remove-context:ongoing-order
+Training Phrases:
+
+can you remove burger?
+
+remove pizza from my order
+
+I don’t want pizza
+
+Please take the fries off my order
+
+Please take the pizza off my order
+
+I would like to remove the pizza from my order
+
+Kindly exclude the side dish from my order
+
+I no longer want cheeseburger in my order, please remove it
+
+I no longer want the italian pizza in my order, please remove it
+
+Intent: order.complete-context:ongoing-order
+Training Phrases:
+
+No
+
+Thank you. Good bye
+
+Place an order
+
+Done ordering
+
+Done
+
+That is all I needed
+
+That is all
+
+That is it
+
+Response:
+
+Thank you! Your order is placed. ID of your order is #
+
+Intent: track.order
+Training Phrases:
+
+Where is my food?
+
+Where is my order?
+
+Show me my order progress
+
+monitor my order
+
+track order
+
+track my order
+
+check the status of my order
+
+Responses:
+
+Sure. Enter your order id
+
+Sure. What is your order id?
+
+Definitely. What is the order id?
+
+Intent: track.order-context:ongoing-tracking
+Training Phrases:
+
+id is 40
+
+here is my id number 41
+
+here is my id number 1234
+
+here is 123
+
+789
+
+id: 345
+
+id is 123
+
+my id is 456
+

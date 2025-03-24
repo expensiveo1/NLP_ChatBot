@@ -1,5 +1,6 @@
 # NLP_ChatBot
 Open MASTER branch to see files
+
 Directory structure
 ===================
 backend: Contains Python FastAPI backend code
